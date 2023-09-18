@@ -1,0 +1,33 @@
+# bootcode Introduce
+ - BootCode 功能简介
+    - 加载运行片外固件
+        - 流程
+            - 硬件
+            - 软件
+        - 安全
+            - 硬件，安全状态
+            - 软件流程
+            - 固件
+        - debug
+            - postcode
+            - fastsim
+            - jtag
+    - 涉及到主要IP介绍
+        - IP在系统架构中的位置
+            - mp0
+            - fuse
+ - BootCode 输入与输出
+    - 输入
+        - ROM0/ROM1
+        - fusestrap
+        - romstrap
+        - pinstrap
+    - 输出
+        - IPs
+        - Register
+        - BootRomTable
+ - 固件加载运行流程
+    - data path 介绍
+    - 软件配置流程介绍
+    
+

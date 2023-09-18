@@ -1,0 +1,27 @@
+# SLT_设计文档
+ - SLT-简介
+    - 生产测试套件，包含压力测试以及功能点测试
+    - 测试模式
+        - 扣卡
+        - 标卡
+ - 测试环境说明
+    - 硬件环境
+        - 主板：KM M1B01/ M1C01/M2A01
+        - CPU: Hygon C86 7391/7390
+    - 软件环境
+        - 操作系统 CentOS 3.10.0-957.el7.x86_64
+        - 驱动程序 rocm4.5 V1.8/rocm5.2
+        - 测试套件
+ - 测试功耗
+    - 电压 0.9V
+    - CLK 600M - 1319M, SMU 调频
+ - 测试用例，以及压力负载分析
+    - hpl
+    - dqst
+    - gemmpower
+    - gemm-stress
+    - ai benchmark
+    - kfd
+    - unittest
+ - 测试流程
+ - 测试报告生成
