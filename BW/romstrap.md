@@ -29,3 +29,20 @@ bit10-31 RESERVED
 | 2-7   | RESERVED  |                        |
 | 8-9   | Build VER | 1:SOC_ONLY 2:GC 3:QEMU |
 | 10-31 | RESERVED  |                        |
+
+
+```bash
+# silicon
+*_LC_SPC_MODE_2P5GT_A : 0x0
+*_LC_SPC_MODE_5GT_A : 0x0
+*_LC_SPC_MODE_8GT_A : 0x1
+*_LC_SPC_MODE_16GT_A : 0x2
+*_LC_SPC_MODE_32GT_A : 0x2
+
+# emu
+*_LC_SPC_MODE_2P5GT_A : 0x1
+*_LC_SPC_MODE_5GT_A : 0x1
+*_LC_SPC_MODE_8GT_A : 0x1
+*_LC_SPC_MODE_16GT_A : 0x1
+*_LC_SPC_MODE_32GT_A : 0x2
+```

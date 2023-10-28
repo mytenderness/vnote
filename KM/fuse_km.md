@@ -50,3 +50,15 @@ only usefull for EP
 
 ## x8 vbios config
 ![x8_vbios_config](vx_images/241413920248794.png)
+
+# fuse Distribute (PCIE0)
+
+## SOC_FUSEDOC
+![fuse_doc_1](vx_images/211014811246749.png)
+
+## PubFuseAddress
+PCIE0 : 0x75257515
+PubFuseAddress start = 0x7515 << 2 | 0x5D000  (0x5d454)
+PubFuseAddress end  = 0x7525 << 2 | 0x5D000  (0x5d494)
+
+MP0 Write PubFuseAddress to PCIE0_RSMU_PUB_FUSE_ADDR_GENERIC

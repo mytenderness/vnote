@@ -4,3 +4,5 @@
 
 ![GPIO4_5](vx_images/186771011257418.png)
 ![Pin_strap_pcie](vx_images/492770911237252.png =700x)
+
+![Pin_AP_SIZE](vx_images/436281310231048.png)

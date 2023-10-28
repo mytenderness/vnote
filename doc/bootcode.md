@@ -31,3 +31,17 @@
     - 软件配置流程介绍
     
 
+# BootCode MAS 更新
+ - 3.4.2 GPIO
+ - 3.5 SMN TLB
+ - 3.7.1 cold/hard_reset 与4.14 内容重复
+ - 3.10.4 MBIST ,IP 顺序
+ - 3.12 CLK 初始化
+ - 3.13 WAFLC & PCS
+ - 4.2.3.2 PostCode
+ - 4.2.3.6 fastsim
+ - 4.2.3.9 harvest
+ - 4.2.3.10 baco_exit
+ - 4.2.8 coverage
+ - 5 ucode
+ - 6.9 Postcode

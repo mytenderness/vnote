@@ -22,7 +22,8 @@
     
 ## SLT
  - http://172.18.228.101:9900/DCU/tools/dcu_pts.git
-    - dcu_pts
+ - beijn: http://10.60.44.20:9900/DCU/tools/dcu_pts.git
+    - git clone -b dcu_pts http://172.18.228.101:9900/DCU/tools/dcu_pts.git
     
 ## pptable
  -  http://172.18.228.101:9900/liuzhuo/pptable_tool.git

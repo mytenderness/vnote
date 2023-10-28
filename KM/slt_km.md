@@ -1,4 +1,5 @@
 rm -rf /etc/profile.d/hygon-env.sh 
+echo "blacklist hydcu" > /etc/modprobe.d/blacklist-hydcu.conf
 
 # cretest
 source 脚本后
@@ -40,6 +41,10 @@ host cmd:
 python crest_run.py pcie_crest_cpc_cu_smn.stil.tdr.txt
 
 ```
+
+# 基本型号
+SMN 0x5d44c
+![km基板](vx_images/40582114247850.png =200x)
 
 # baco reset
 /home/ray/bin/dcu_smnwr 0 0x59A04 0x40c

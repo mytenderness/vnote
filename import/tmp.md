@@ -1,3 +1,8 @@
+
+GPT-API:
+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
+
+
 vega20c_ft4232.tcl
 vega20c_common_init.tcl
 vega20c_toolset.tcl
@@ -60,3 +65,17 @@ run : `python run_test.py -d ../../case/zifang -j 10.65.56.51 -s 10.65.46.142 -r
       - 对比DCU和CPU的生产差异
 
 - 文档总结与分享
+
+
+![1](vx_images/314475213231060.png =233x)
+![1.1](vx_images/595085213249486.png =231x)
+![1.2](vx_images/261855313237353.png =226x)
+![1.3](vx_images/406765313257519.png =209x)
+![1.4](vx_images/75435413250188.png =232x)
+
+![2](vx_images/298885413246743.png =228x)
+![2.1](vx_images/443915413242497.png =215x)
+![2.2](vx_images/59885513260377.png =219x)
+![2.3](vx_images/227285513257981.png =222x)
+![2.4](vx_images/431345513255483.png =214x)
+![2.5](vx_images/586015513236724.png =226x)
